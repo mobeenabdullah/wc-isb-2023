@@ -5,3 +5,11 @@
 .home .wp-block-post-title {
 	display: none;
 }
+
+.home .wp-block-group {
+	margin-top: 0;
+}
+
+.home .entry-content {
+	margin-top: 0;
+}
