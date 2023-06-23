@@ -14,6 +14,10 @@
 	margin-top: 0;
 }
 
+.call__section .wp-block-column.cards__column {
+	flex-basis: 100% !important;
+}
+
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
 	text-decoration: none;
 	color: #007cba;
