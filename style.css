@@ -45,9 +45,9 @@
 }
 
 .hero__buttons .wp-block-button a:hover {
-	background-color: #32922b;
-	color: #fff;
-	border-color: #32922b;
+	background-color: #38a630 !important;
+	color: #fff !important;
+	border-color: #38a630 !important;
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
