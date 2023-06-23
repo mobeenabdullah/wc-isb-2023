@@ -30,9 +30,19 @@
 	flex-basis: 80% !important;
 }
 
+.hero-title {
+	font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);
+	line-height: 1.2;
+}
+
+.hero-title span {
+	color: #3fba36;
+	font-weight: 600;
+}
+
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
 	text-decoration: none;
-	color: #007cba;
+	color: #3fba36;
 }
 
 .info__boxes {
