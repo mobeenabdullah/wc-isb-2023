@@ -13,6 +13,11 @@
     }
 }
 .call__section  {
+    background: rgb(246,246,246);
+    background: -moz-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr="#ffffff",GradientType=1);
     .wp-block-column {
         &.cards__column {
             flex-basis: 100% !important;
