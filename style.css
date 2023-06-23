@@ -23,7 +23,7 @@
 }
 
 .call__section .wp-block-column.cards__column {
-	flex-basis: 100% !important;
+	flex-basis: 80% !important;
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
