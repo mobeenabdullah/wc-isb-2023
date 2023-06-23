@@ -1,3 +1,8 @@
 .wp-site-blocks {
     padding: 0;
 }
+.home {
+    & .wp-block-post-title {
+        display: none;
+    }
+}
