@@ -40,6 +40,16 @@
 	font-weight: 600;
 }
 
+.hero__buttons .wp-block-button a {
+	transition: all .2s;
+}
+
+.hero__buttons .wp-block-button a:hover {
+	background-color: #32922b;
+	color: #fff;
+	border-color: #32922b;
+}
+
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
 	text-decoration: none;
 	color: #3fba36;
