@@ -28,6 +28,7 @@
 	align-items: stretch;
 	justify-content: center;
 	width: 100%;
+	gap: 30px;
 }
 
 .info__boxes-single {
@@ -36,12 +37,14 @@
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
 	border-radius: 10px;
 	text-align: center;
-	max-width: 33.33%;
+	width: calc(100% / 3);
 }
 
 .info__boxes-single-icon {
 	display: inline-flex;
-	width: 150px;
+	width: 122px;
+	padding: 1.5rem;
+	box-sizing: border-box;
 }
 
 .info__boxes-single-icon img {
