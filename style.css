@@ -13,3 +13,9 @@
 .home .entry-content {
 	margin-top: 0;
 }
+
+.site__logo {
+	position: relative;
+	top: 16px;
+	border: 3px solid #ffffff;
+}
