@@ -22,6 +22,10 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr="#ffffff",GradientType=1);
 }
 
+.call__section .wp-block-columns {
+	justify-content: center !important;
+}
+
 .call__section .wp-block-column.cards__column {
 	flex-basis: 80% !important;
 }
