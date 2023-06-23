@@ -14,31 +14,7 @@
 	margin-top: 0;
 }
 
-.wp-block-navigation__container .wp-block-navigation-item {
-	position: relative;
-}
-
-.wp-block-navigation__container .wp-block-navigation-item a {
-	position: relative;
-}
-
-.wp-block-navigation__container .wp-block-navigation-item a::before {
-	content: '';
-	width: 0;
-	height: 2px;
-	background-color: #000;
-	position: absolute;
-	bottom: -2px;
-	left: 0;
-	transform: scaleX(0);
-	transition: transform 0.3s ease-in-out;
-}
-
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
 	text-decoration: none;
-}
-
-.wp-block-navigation__container .wp-block-navigation-item a:hover::before {
-	content: '';
-	width: 100%;
+	color: #007cba;
 }
