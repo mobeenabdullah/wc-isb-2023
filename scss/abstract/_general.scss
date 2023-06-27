@@ -24,15 +24,16 @@
     }
 }
 .hero__main {
-    background-image: url(https://islamabad.wordcamp.org/2023/files/2023/06/white-brush-stroke-texture-background-scaled.jpg);
+    background-image: url(https://islamabad.wordcamp.org/2023/files/2023/06/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction-scaled.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-position: bottom center;
     position: relative;  
 
     & .wp-block-group {
         position: relative;
-        z-index: 1;        
+        z-index: 5;        
     }
     &::before {
         content: '';
@@ -41,7 +42,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, rgba(0,0,0,0.10) 0%, rgba(0,0,0,0.10) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,.8) 0%, rgba(0,0,0,.8) 100%);
+        z-index: 1;
     }
 }
 
