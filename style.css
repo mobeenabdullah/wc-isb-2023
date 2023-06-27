@@ -211,3 +211,9 @@
 .sponsor__labels {
 	display: inline-block;
 }
+
+.sponsor__heading-cover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
