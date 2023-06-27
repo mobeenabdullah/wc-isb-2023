@@ -23,13 +23,7 @@
 }
 
 .hero__main {
-	background-image: url(https://islamabad.wordcamp.org/2023/files/2023/06/open-laptop-mouse-with-bulldog-paper-clips-felt-tip-pens-yellow-background-scaled.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding: 5rem 0;
 	position: relative;
-	filter: grayscale(100%);
 }
 
 .hero__main .wp-block-group {
