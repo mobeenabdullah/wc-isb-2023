@@ -182,7 +182,7 @@
 	width: 200px;
 }
 
-.diamond__list {
+.diamond__list, .gold__list, .silver__list {
 	display: flex;
 	align-items: stretch;
 	justify-content: center;
@@ -190,7 +190,7 @@
 	flex-wrap: wrap;
 }
 
-.diamond__list li {
+.diamond__list li, .gold__list li, .silver__list li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -202,10 +202,18 @@
 	min-height: 6rem;
 }
 
-.diamond__list li a img {
+.diamond__list li a img, .gold__list li a img, .silver__list li a img {
 	margin-bottom: 0;
 	width: 300px;
 	height: auto;
+}
+
+.diamond__list li, .gold__list li, .silver__list li {
+	min-height: 5rem;
+}
+
+.diamond__list li a img, .gold__list li a img, .silver__list li a img {
+	width: 200px;
 }
 
 .sponsor__labels {

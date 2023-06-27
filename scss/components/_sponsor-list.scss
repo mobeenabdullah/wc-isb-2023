@@ -23,7 +23,7 @@
     }
 }
 
-.diamond__list {
+.diamond__list, .gold__list, .silver__list {
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -44,6 +44,17 @@
                 margin-bottom: 0;  
                 width: 300px; 
                 height: auto;     
+            }                    
+        }
+    }
+}
+
+.diamond__list, .gold__list, .silver__list {    
+    & li {      
+        min-height: 5rem;
+        & a {
+            & img {                
+                width: 200px;     
             }                    
         }
     }
