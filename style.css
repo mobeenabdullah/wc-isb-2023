@@ -120,7 +120,7 @@
 	display: block;
 }
 
-.expect__list-title h3 {
+.expect__list-single-title h3 {
 	margin: 0;
 	font-size: 1.3rem;
 	font-weight: 500;
