@@ -11,10 +11,8 @@
         border-radius: 10px;
         text-align: center;
         width: calc(100% / 3);
-        & a {
-            color: #000;
-            text-decoration: none;
-        }
+        color: #000;
+        text-decoration: none;
         &-icon {
             display: inline-flex;
             width: 122px;
