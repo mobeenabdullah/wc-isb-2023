@@ -181,3 +181,29 @@
 	margin-bottom: 0;
 	width: 200px;
 }
+
+.diamond__list {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.diamond__list li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 1.5rem;
+	background: rgba(0, 0, 0, 0.03);
+	border-radius: 10px;
+	width: calc(100% / 4);
+	min-height: 8rem;
+}
+
+.diamond__list li a img {
+	margin-bottom: 0;
+	width: 200px;
+	height: auto;
+}
