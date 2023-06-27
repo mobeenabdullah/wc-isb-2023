@@ -100,8 +100,7 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	text-align: center;
-	grid-row-gap: 4rem;
-	grid-column-gap: 1.5rem;
+	grid-gap: 1.5rem;
 }
 
 .expect__list-single {
