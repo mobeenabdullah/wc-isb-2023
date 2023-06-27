@@ -29,6 +29,12 @@
 	background-repeat: no-repeat;
 	padding: 5rem 0;
 	position: relative;
+	filter: grayscale(100%);
+}
+
+.hero__main .wp-block-group {
+	position: relative;
+	z-index: 1;
 }
 
 .hero__main::before {
@@ -43,6 +49,7 @@
 
 .home .wp-block-group.call__section {
 	margin-top: -80px !important;
+	position: relative;
 }
 
 .hero-title {
