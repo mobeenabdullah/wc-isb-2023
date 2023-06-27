@@ -95,3 +95,33 @@
 	font-weight: 500;
 	line-height: 1;
 }
+
+.expect__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+	grid-gap: 1.5rem;
+}
+
+.expect__list-single {
+	justify-self: center;
+}
+
+.expect__list-single-icon {
+	width: 6rem;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.expect__list-single-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.expect__list-title h3 {
+	margin: 0;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
