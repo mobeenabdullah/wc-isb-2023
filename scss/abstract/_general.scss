@@ -13,11 +13,7 @@
     }
 }
 .call__section  {
-    background: rgb(246,246,246);
-    background: -moz-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
-    background: -webkit-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
-    background: linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr=$white-color,GradientType=1);
+   margin-top: -80px !important;
     & .wp-block-columns {
         justify-content: center !important;
     }
