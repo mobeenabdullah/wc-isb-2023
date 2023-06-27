@@ -100,20 +100,29 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	text-align: center;
-	grid-gap: 1.5rem;
+	grid-row-gap: 4rem;
+	grid-column-gap: 1.5rem;
 }
 
 .expect__list-single {
 	justify-self: center;
+	width: 100%;
+	padding: 1.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	box-sizing: border-box;
 }
 
 .expect__list-single-icon {
-	width: 6rem;
+	max-width: 5rem;
+	max-height: 5rem;
 	display: inline-block;
 	margin-bottom: 1rem;
+	width: 100%;
+	height: 100%;
 }
 
-.expect__list-single-icon img {
+.expect__list-single-icon img, .expect__list-single-icon svg {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
