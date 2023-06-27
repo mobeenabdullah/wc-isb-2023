@@ -14,16 +14,16 @@
 	margin-top: 0;
 }
 
-.call__section {
-	margin-top: -80px !important;
-}
-
 .call__section .wp-block-columns {
 	justify-content: center !important;
 }
 
 .call__section .wp-block-column.cards__column {
 	flex-basis: 80% !important;
+}
+
+.home .wp-block-group.call__section {
+	margin-top: -80px !important;
 }
 
 .hero-title {
