@@ -19,7 +19,7 @@
 	background: -moz-linear-gradient(180deg, #f6f6f6 50%, white 50%);
 	background: -webkit-linear-gradient(180deg, #f6f6f6 50%, white 50%);
 	background: linear-gradient(180deg, #f6f6f6 50%, white 50%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr="#ffffff",GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr=$white-color,GradientType=1);
 }
 
 .call__section .wp-block-columns {
@@ -70,7 +70,7 @@
 	border-radius: 10px;
 	text-align: center;
 	width: calc(100% / 3);
-	color: #000;
+	color: #000 !important;
 	text-decoration: none;
 }
 
