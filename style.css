@@ -72,6 +72,11 @@
 	width: calc(100% / 3);
 }
 
+.info__boxes-single a {
+	color: #000;
+	text-decoration: none;
+}
+
 .info__boxes-single-icon {
 	display: inline-flex;
 	width: 122px;
