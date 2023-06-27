@@ -199,12 +199,12 @@
 	background: rgba(0, 0, 0, 0.03);
 	border-radius: 10px;
 	width: calc(100% / 4);
-	min-height: 8rem;
+	min-height: 6rem;
 }
 
 .diamond__list li a img {
 	margin-bottom: 0;
-	width: 200px;
+	width: 300px;
 	height: auto;
 }
 
