@@ -17,7 +17,7 @@
     background: -moz-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
     background: -webkit-linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
     background: linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 50%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr="#ffffff",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6f6f6",endColorstr=$white-color,GradientType=1);
     & .wp-block-columns {
         justify-content: center !important;
     }
@@ -42,7 +42,7 @@
             transition: all .2s;
             &:hover {
                 background-color: darken($primary-color, 5%) !important;
-                color: #fff !important;
+                color: $white-color !important;
                 border-color: darken($primary-color, 5%) !important;
             }
         }
