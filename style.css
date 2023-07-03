@@ -240,4 +240,13 @@
 	display: block;
 }
 
+.blog__posts .wp-block-latest-posts__post-title {
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	display: block;
+	color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
