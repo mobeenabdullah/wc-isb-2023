@@ -227,3 +227,17 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.blog__posts .wp-block-latest-posts__featured-image a {
+	width: 100%;
+}
+
+.blog__posts .wp-block-latest-posts__featured-image a img {
+	height: 300px;
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

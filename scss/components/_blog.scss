@@ -1,0 +1,14 @@
+.blog__posts {
+    & .wp-block-latest-posts__featured-image {
+        & a {
+            width: 100%;
+            & img {
+                height: 300px;
+                max-width: 100%;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    }
+}
