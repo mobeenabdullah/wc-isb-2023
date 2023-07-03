@@ -249,4 +249,26 @@
 	color: #000;
 }
 
+.blog__posts time.wp-block-latest-posts__post-date {
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 1;
+	float: right;
+	clear: right;
+}
+
+.blog__posts .wp-block-latest-posts__post-author {
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 1;
+	float: left;
+	clear: left;
+}
+
+.blog__posts .wp-block-latest-posts__post-excerpt {
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+	clear: both;
+}
+
 /*# sourceMappingURL=style.css.map */
