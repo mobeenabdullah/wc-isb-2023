@@ -304,11 +304,9 @@
 @media screen and (max-width: 767px) {
 	.blog__posts {
 		background-color: transparent;
-	}
-	.blog__posts .wp-block-latest-posts.is-grid {
 		padding: 0 30px;
 	}
-	.blog__posts .wp-block-latest-posts.is-grid li {
+	.blog__posts li {
 		margin: 0 !important;
 		margin-bottom: 30px;
 	}
