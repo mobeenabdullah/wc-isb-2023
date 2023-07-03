@@ -73,6 +73,15 @@
 	border-color: #38a630 !important;
 }
 
+@media screen and (max-width: 767px) {
+	.hero__main .wp-block-group {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
 	text-decoration: none;
 	color: #3fba36;

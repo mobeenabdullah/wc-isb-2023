@@ -73,3 +73,14 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .hero__main {
+        & .wp-block-group {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
