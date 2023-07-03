@@ -48,8 +48,10 @@
 
 @media screen and (max-width: 767px) {
     .blog__posts { 
-        background-color: transparent;
-        padding: 0 30px;
+        background-color: transparent;        
+        &.wp-block-latest-posts.is-grid {
+            padding: 0 30px;
+        }
         & li {
             margin: 0 !important;
             margin-bottom: 30px;
