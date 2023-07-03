@@ -1,4 +1,9 @@
 .blog__posts {
+    & .wp-block-latest-posts__list {
+        & li {
+            
+        }
+    }
     & .wp-block-latest-posts__featured-image {
         & a {
             width: 100%;
@@ -35,7 +40,7 @@
     }
     .wp-block-latest-posts__post-excerpt {
         margin-bottom: 1em;
-        margin-top: 0.5em;
+        margin-top: 3em;
         clear: both;
     }
 }
