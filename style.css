@@ -76,7 +76,7 @@
 @media screen and (max-width: 767px) {
 	.hero__main .wp-block-group {
 		padding-top: 50px !important;
-		padding-bottom: 50px !important;
+		padding-bottom: 140px !important;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
@@ -129,6 +129,16 @@
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+	.info__boxes {
+		flex-wrap: wrap;
+	}
+	.info__boxes-single {
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
 
 .expect__list {

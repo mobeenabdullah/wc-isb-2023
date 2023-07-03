@@ -37,3 +37,13 @@
         
     }
 }
+
+@media screen and (max-width: 767px) {
+    .info__boxes {
+        flex-wrap: wrap;
+        &-single {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}
