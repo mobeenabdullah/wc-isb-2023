@@ -75,10 +75,13 @@
 
 @media screen and (max-width: 767px) {
 	.hero__main .wp-block-group {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
 		padding-left: 30px;
 		padding-right: 30px;
+	}
+	.hero__main .hero__image {
+		display: none;
 	}
 }
 
