@@ -195,25 +195,24 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0;
-	padding: 1.5rem;
-	background: rgba(0, 0, 0, 0.03);
-	border-radius: 10px;
 	width: calc(100% / 4);
-	min-height: 6rem;
 }
 
 .diamond__list li a img, .gold__list li a img, .silver__list li a img {
 	margin-bottom: 0;
-	width: 300px;
 	height: auto;
 }
 
-.diamond__list li, .gold__list li, .silver__list li {
-	min-height: 5rem;
+.diamond__list li a img {
+	width: 300px;
 }
 
-.diamond__list li a img, .gold__list li a img, .silver__list li a img {
-	width: 200px;
+.gold__list li a img {
+	width: 220px;
+}
+
+.silver__list li a img {
+	width: 180px;
 }
 
 .sponsor__labels {
