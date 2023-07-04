@@ -6,5 +6,8 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        & figure {
+            border-radius: 50%;
+        }
     }    
 }
