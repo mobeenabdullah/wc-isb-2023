@@ -258,6 +258,10 @@
 	justify-content: center;
 }
 
+.blog__posts .wp-block-latest-posts__featured-image {
+	margin-bottom: 2rem;
+}
+
 .blog__posts .wp-block-latest-posts__featured-image a {
 	width: 100%;
 }
