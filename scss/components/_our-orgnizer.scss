@@ -1,0 +1,10 @@
+.our__orgnizers {
+    & .home .wp-block-post-title {
+        display: block;
+    }
+    & .home .wp-block-group {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }    
+}

@@ -314,4 +314,14 @@
 	}
 }
 
+.our__orgnizers .home .wp-block-post-title {
+	display: block;
+}
+
+.our__orgnizers .home .wp-block-group {
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
