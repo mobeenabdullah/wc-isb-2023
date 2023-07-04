@@ -314,6 +314,11 @@
 	}
 }
 
+.our__orgnizers .wp-block-wordcamp-avatar {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
 .our__orgnizers .home .wp-block-post-title {
 	display: block;
 }
@@ -322,10 +327,6 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-}
-
-.our__orgnizers .home .wp-block-group figure {
-	border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
