@@ -321,10 +321,18 @@
 .our__orgnizers ul .wp-block-wordcamp-avatar {
 	border-radius: 50%;
 	overflow: hidden;
+	width: 40px !important;
+	height: 40px !important;
 }
 
 .our__orgnizers ul .wp-block-post-title {
 	display: block;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.our__orgnizers ul .wp-block-post-title a {
+	color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
