@@ -14,7 +14,18 @@
             & a {
                 color: #000;
             }
-        }   
+        }  
+        & .wp-block-post-excerpt__excerpt {
+            font-size: 16px;
+            line-height: 1.8;        
+        } 
+        & .wp-block-post-excerpt {
+            margin-bottom: 0 !important;
+        }
+        .wp-block-post-excerpt__more-text {
+            font-size: 16px;
+            font-weight: 600;
+        }
         & li {
             padding: 20px;
             box-sizing: border-box;

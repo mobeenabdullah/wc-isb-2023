@@ -335,6 +335,20 @@
 	color: #000;
 }
 
+.our__orgnizers ul .wp-block-post-excerpt__excerpt {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.our__orgnizers ul .wp-block-post-excerpt {
+	margin-bottom: 0 !important;
+}
+
+.our__orgnizers ul .wp-block-post-excerpt__more-text {
+	font-size: 16px;
+	font-weight: 600;
+}
+
 .our__orgnizers ul li {
 	padding: 20px;
 	box-sizing: border-box;
