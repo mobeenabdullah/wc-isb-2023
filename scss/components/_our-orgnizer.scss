@@ -1,13 +1,14 @@
 .our__orgnizers {
+    
     & ul {
         & .wp-block-wordcamp-avatar {
             border-radius: 50%;
             overflow: hidden;
         }
-        & .home .wp-block-post-title {
+        & .wp-block-post-title {
             display: block;
         }
-        & .home .wp-block-group {
+        & .wp-block-group {
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;       

@@ -323,11 +323,11 @@
 	overflow: hidden;
 }
 
-.our__orgnizers ul .home .wp-block-post-title {
+.our__orgnizers ul .wp-block-post-title {
 	display: block;
 }
 
-.our__orgnizers ul .home .wp-block-group {
+.our__orgnizers ul .wp-block-group {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
