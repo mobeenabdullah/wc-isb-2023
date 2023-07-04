@@ -314,16 +314,16 @@
 	}
 }
 
-.our__orgnizers .wp-block-wordcamp-avatar {
+.our__orgnizers ul .wp-block-wordcamp-avatar {
 	border-radius: 50%;
 	overflow: hidden;
 }
 
-.our__orgnizers .home .wp-block-post-title {
+.our__orgnizers ul .home .wp-block-post-title {
 	display: block;
 }
 
-.our__orgnizers .home .wp-block-group {
+.our__orgnizers ul .home .wp-block-group {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
