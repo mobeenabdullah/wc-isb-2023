@@ -358,10 +358,11 @@
 
 button {
 	background-color: #3fba36 !important;
+	border-radius: 6px;
 }
 
 input, textarea, select {
-	border-radius: 10px;
+	border-radius: 6px;
 }
 
 .blog__single .wp-block-button__link {
