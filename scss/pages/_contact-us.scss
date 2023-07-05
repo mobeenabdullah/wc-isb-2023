@@ -1,5 +1,8 @@
 .contact__us {
     & button {
-    background-color: $primary-color !important;
+        background-color: $primary-color !important;
     }    
+    & input {
+        border-radius: 10px;
+    }
 }
