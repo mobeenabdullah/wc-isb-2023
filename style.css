@@ -356,4 +356,12 @@
 	border-radius: 10px;
 }
 
+.blog__single .wp-block-button__link {
+	background-color: #3fba36 !important;
+}
+
+.contact__us button {
+	background-color: #3fba36 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

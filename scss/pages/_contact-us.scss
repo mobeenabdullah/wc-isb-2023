@@ -1,9 +1,5 @@
 .contact__us {
-    & input {
-        border-radius: 10px !important;
-    }
-    
-    & button.wp-block-button__link {
-        background-color: $primary-color !important;
-    }
+    & button {
+    background-color: $primary-color !important;
+    }    
 }
