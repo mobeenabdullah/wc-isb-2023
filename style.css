@@ -73,6 +73,15 @@
 	border-color: #38a630 !important;
 }
 
+.post__content a {
+	color: #3fba36;
+}
+
+.post__content a:hover {
+	color: #38a630;
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
 	.hero__main .wp-block-group {
 		padding-top: 50px !important;
