@@ -274,6 +274,10 @@
 	justify-content: center;
 }
 
+.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title {
+	display: none;
+}
+
 .blog__posts .wp-block-latest-posts__featured-image {
 	margin-bottom: 0.5rem;
 }
