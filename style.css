@@ -356,16 +356,16 @@
 	border-radius: 10px;
 }
 
+button {
+	background-color: #3fba36 !important;
+}
+
+input, textarea, select {
+	border-radius: 10px;
+}
+
 .blog__single .wp-block-button__link {
 	background-color: #3fba36 !important;
-}
-
-.contact__us button {
-	background-color: #3fba36 !important;
-}
-
-.contact__us input {
-	border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
