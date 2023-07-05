@@ -82,6 +82,10 @@
 	text-decoration: underline;
 }
 
+.post__content span {
+	color: #3fba36 !important;
+}
+
 @media screen and (max-width: 767px) {
 	.hero__main .wp-block-group {
 		padding-top: 50px !important;
@@ -235,7 +239,10 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.08);
 	width: calc(100% / 4);
+	padding: 1.5rem;
+	border-radius: 10px;
 }
 
 .diamond__list li a img, .gold__list li a img, .silver__list li a img {
