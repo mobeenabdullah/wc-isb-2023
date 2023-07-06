@@ -430,8 +430,9 @@ input, textarea, select {
 
 #subscribe-submit button[type='submit'] {
 	background-color: #3fba36 !important;
+	border-color: #3fba36 !important;
 	border-radius: 6px !important;
-	color: transparent !important;
+	color: #fff !important;
 }
 
 .blog__single .wp-block-button__link {

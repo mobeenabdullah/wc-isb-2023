@@ -9,7 +9,8 @@ input, textarea, select {
 #subscribe-submit {
     button[type='submit'] {
         background-color: $primary-color !important;
+        border-color: $primary-color !important;
         border-radius: 6px !important;
-        color: transparent !important;
+        color: $white-color !important;
     }
 }
