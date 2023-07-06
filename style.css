@@ -95,7 +95,7 @@
 	color: #000 !important;
 }
 
-.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title, .page-slug-speakers .wp-block-post-title, .page-slug-sponsors .wp-block-post-title, .page-slug-wordcamp-islamabad-2023 .wp-block-post-title {
+.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title, .page-slug-speakers .wp-block-post-title, .page-slug-sponsors .wp-block-post-title, .page-slug-wordcamp-islamabad-2023 .wp-block-post-title, .page-slug-organizers .wp-block-post-title {
 	display: none;
 }
 
