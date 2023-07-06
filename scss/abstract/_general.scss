@@ -103,16 +103,15 @@
         display: none;
     }
 }
-.main__header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
+.page-slug-wordcamp-islamabad-2023 {
+    & .main__header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+    }
 }
-
-
-
 
 
 @media screen and (max-width: 767px) {
