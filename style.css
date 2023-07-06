@@ -126,6 +126,12 @@
 	.useful__links {
 		padding-left: 0 !important;
 	}
+	.wp-block-navigation__submenu-container {
+		padding: 0;
+	}
+	.hero__main .wp-block-heading {
+		font-size: 30px;
+	}
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
