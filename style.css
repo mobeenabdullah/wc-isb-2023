@@ -123,6 +123,9 @@
 	.what__expect {
 		padding-top: 0 !important;
 	}
+	.useful__links {
+		padding-left: 0 !important;
+	}
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
