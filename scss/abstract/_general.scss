@@ -88,6 +88,10 @@
     }
 }
 
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container {
+    z-index: 999;
+}
+
 @media screen and (max-width: 767px) {
     .hero__main {
         & .wp-block-group {
