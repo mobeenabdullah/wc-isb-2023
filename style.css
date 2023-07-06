@@ -428,6 +428,12 @@ input, textarea, select {
 	border-radius: 6px !important;
 }
 
+button[type='submit'] {
+	background-color: #3fba36 !important;
+	border-radius: 6px !important;
+	color: #fff !important;
+}
+
 .blog__single .wp-block-button__link {
 	background-color: #3fba36 !important;
 }

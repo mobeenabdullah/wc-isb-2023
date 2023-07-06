@@ -6,3 +6,8 @@ button {
 input, textarea, select {
     border-radius: 6px !important;
 }
+button[type='submit'] {
+    background-color: $primary-color !important;
+    border-radius: 6px !important;
+    color: $white-color !important;
+}
