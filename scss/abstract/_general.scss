@@ -98,6 +98,13 @@
     }
 }
 
+.page-slug-contact, .page-slug-code-of-conduct, .page-slug-speakers, .page-slug-sponsors, .page-slug-wordcamp-islamabad-2023 {
+    & .wp-block-post-title {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .hero__main {
         & .wp-block-group {

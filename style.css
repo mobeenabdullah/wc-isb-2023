@@ -95,6 +95,10 @@
 	color: #000 !important;
 }
 
+.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title, .page-slug-speakers .wp-block-post-title, .page-slug-sponsors .wp-block-post-title, .page-slug-wordcamp-islamabad-2023 .wp-block-post-title {
+	display: none;
+}
+
 @media screen and (max-width: 767px) {
 	.hero__main .wp-block-group {
 		padding-top: 50px !important;
@@ -281,10 +285,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title {
-	display: none;
 }
 
 .blog__posts .wp-block-latest-posts__featured-image {
