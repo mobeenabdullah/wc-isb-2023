@@ -108,6 +108,9 @@
 }
 
 @media screen and (max-width: 767px) {
+	.main__header {
+		position: relative;
+	}
 	.hero__main .wp-block-group {
 		padding-top: 50px !important;
 		padding-bottom: 140px !important;
