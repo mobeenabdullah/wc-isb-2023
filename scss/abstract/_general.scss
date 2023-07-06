@@ -115,8 +115,10 @@
 
 
 @media screen and (max-width: 767px) {
-    .main__header {
-        position: relative;        
+    .page-slug-wordcamp-islamabad-2023 {
+        & .main__header {
+            position: relative;
+        }
     }
     .hero__main {
         & .wp-block-group {
