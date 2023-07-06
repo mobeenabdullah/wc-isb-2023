@@ -112,6 +112,8 @@
 }
 
 
+
+
 @media screen and (max-width: 767px) {
     .main__header {
         position: relative;        
@@ -126,5 +128,8 @@
         & .hero__image {
             display: none;
         }
+    }
+    .what__expect {
+        padding-top: 0;
     }
 }

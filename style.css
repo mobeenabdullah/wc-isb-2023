@@ -120,6 +120,9 @@
 	.hero__main .hero__image {
 		display: none;
 	}
+	.what__expect {
+		padding-top: 0;
+	}
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
