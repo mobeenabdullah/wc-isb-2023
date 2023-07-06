@@ -35,6 +35,12 @@
         
     }   
     & .wordcamp-image__avatar-container {
-        
+
     }    
+}
+
+@media screen and (max-width: 767px) {
+    .our__orgnizers {
+        padding: 0 30px;
+    }
 }

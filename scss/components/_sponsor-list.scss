@@ -88,4 +88,8 @@
     justify-content: center;
 }
 
-
+@media screen and (max-width: 767px) {
+    .our__sponsors {
+        padding: 0 30px;
+    }
+}

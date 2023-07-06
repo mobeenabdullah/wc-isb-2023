@@ -173,6 +173,7 @@
 		flex-wrap: wrap;
 		padding: 0 30px;
 		box-sizing: border-box;
+		gap: 0;
 	}
 	.info__boxes-single {
 		width: 100%;
@@ -298,6 +299,12 @@
 	justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+	.our__sponsors {
+		padding: 0 30px;
+	}
+}
+
 .blog__posts .wp-block-latest-posts__featured-image {
 	margin-bottom: 0.5rem;
 }
@@ -390,6 +397,12 @@
 	box-sizing: border-box;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.our__orgnizers {
+		padding: 0 30px;
+	}
 }
 
 button {
