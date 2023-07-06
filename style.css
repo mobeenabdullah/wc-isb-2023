@@ -107,8 +107,14 @@
 	z-index: 99;
 }
 
-.wave {
+.waves {
 	position: relative;
+}
+
+.wave {
+	position: absolute;
+	top: -100px;
+	left: 0;
 	width: 100%;
 	height: 100px;
 	background: url("https://i.imgur.com/ZAts69f.png");
