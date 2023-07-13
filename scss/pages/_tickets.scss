@@ -43,6 +43,25 @@
       width: 60px;
     }
 
+    .tix-column-quantity select {
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #333;
+      width: 60px;
+    }
+
+    .tix-column-quantity select:hover {
+      border-color: #999;
+    }
+
+    .tix-column-quantity select:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #aaa;
+    }
+
     tr:nth-child(even) {
       background-color: #f2f2f2;
     }
