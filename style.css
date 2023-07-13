@@ -617,7 +617,8 @@ input, textarea, select {
 	padding: 10px;
 }
 
-.page-slug-tickets .tix-js tbody td {
+.page-slug-tickets .tix-js tbody td,
+.page-slug-tickets .tix-js tbody th {
 	padding: 10px;
 	border: 1px solid #ddd;
 }
