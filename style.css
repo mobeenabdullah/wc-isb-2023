@@ -496,6 +496,14 @@ input, textarea, select {
 	line-height: 24px;
 }
 
+.page-slug-sponsors .sponsor__block {
+	padding: 0;
+}
+
+.page-slug-sponsors .sponsor__block .wp-block-heading {
+	padding: 10px;
+}
+
 .page-slug-sponsors .sponsor__block .wordcamp-sponsors__featured-image {
 	max-width: 300px;
 	width: 100%;
@@ -523,6 +531,7 @@ input, textarea, select {
 	text-decoration: none;
 	color: #000;
 	padding-left: 30px;
+	position: relative;
 }
 
 .page-slug-sponsors .sponsor__block .wordcamp-sponsors__title a::after {
