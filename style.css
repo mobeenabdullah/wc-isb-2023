@@ -611,15 +611,15 @@ input, textarea, select {
 	border-collapse: collapse;
 }
 
-.page-slug-tickets .tix-js th,
-.page-slug-tickets .tix-js td {
-	padding: 10px;
+.page-slug-tickets .tix-js thead th {
+	background-color: #f2f2f2;
 	border: 1px solid #ddd;
+	padding: 10px;
 }
 
-.page-slug-tickets .tix-js th {
-	background-color: #f2f2f2;
-	font-weight: bold;
+.page-slug-tickets .tix-js tbody td {
+	padding: 10px;
+	border: 1px solid #ddd;
 }
 
 .page-slug-tickets .tix-js .tix-column-description {
