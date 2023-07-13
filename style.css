@@ -449,6 +449,7 @@ input, textarea, select {
 	padding: 0;
 	display: flex;
 	gap: 3rem;
+	flex-wrap: wrap;
 }
 
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post {
