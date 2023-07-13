@@ -1,71 +1,87 @@
 .page-slug-tickets {
   & .tix-js {
-    width: 100% !important;
-
-    table.tix_tickets_table {
-      width: 100%;
-      height: auto;
-      border-collapse: collapse;
-    }
-
-    thead {
-      th {
-        background-color: #f2f2f2;
-        border: 1px solid #ddd;
-        padding: 10px;
-      }
-    }
-    tbody td,
-    tbody th {
-      padding: 10px;
-      border: 1px solid #ddd;
-    }
-
-    .tix-column-description {
-      width: 50%;
-    }
-
-    .tix-column-price,
-    .tix-column-remaining,
-    .tix-column-quantity {
-      text-align: center;
-    }
-
-    .tix-column-price {
-      font-weight: bold;
-    }
-
-    .tix-column-remaining {
-      color: green;
-    }
-
-    .tix-column-quantity select {
-      width: 60px;
-    }
-
-    .tix-column-quantity select {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    width: 100%;
+    & input {
       padding: 8px;
       font-size: 14px;
       border: 1px solid #ddd;
       border-radius: 4px;
       background-color: #fff;
       color: #333;
-      width: 60px;
+      &:hover {
+        border-color: #999;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #aaa;
+      }
     }
 
-    .tix-column-quantity select:hover {
-      border-color: #999;
-    }
+    table.tix_tickets_table {
+      width: 100%;
+      height: auto;
+      border-collapse: collapse;
+      thead {
+        th {
+          background-color: #f2f2f2;
+          border: 1px solid #ddd;
+          padding: 10px;
+        }
+      }
+      tbody td,
+      tbody th {
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      .tix-column-description {
+        width: 50%;
+      }
 
-    .tix-column-quantity select:focus {
-      outline: none;
-      box-shadow: 0 0 0 2px #aaa;
-    }
+      .tix-column-price,
+      .tix-column-remaining,
+      .tix-column-quantity {
+        text-align: center;
+      }
 
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
+      .tix-column-price {
+        font-weight: bold;
+      }
+
+      .tix-column-remaining {
+        color: $primary-color;
+      }
+
+      .tix-column-quantity select {
+        width: 60px;
+      }
+
+      .tix-column-quantity select {
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        width: 60px;
+      }
+
+      .tix-column-quantity select:hover {
+        border-color: #999;
+      }
+
+      .tix-column-quantity select:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #aaa;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
     }
   }
+
   input[type="submit"] {
     float: right;
     cursor: pointer;
