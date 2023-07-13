@@ -101,7 +101,8 @@
 .page-slug-speakers .wp-block-post-title,
 .page-slug-sponsors .wp-block-post-title,
 .page-slug-wordcamp-islamabad-2023 .wp-block-post-title,
-.page-slug-organizers .wp-block-post-title {
+.page-slug-organizers .wp-block-post-title,
+.page-slug-attendees .wp-block-post-title {
 	display: none;
 }
 
