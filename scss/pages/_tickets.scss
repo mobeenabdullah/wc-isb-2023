@@ -1,0 +1,47 @@
+.page-slug-tickets {
+  & .tix-js {
+    width: 100% !important;
+
+    table.tix_tickets_table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    .tix-column-description {
+      width: 50%;
+    }
+
+    .tix-column-price,
+    .tix-column-remaining,
+    .tix-column-quantity {
+      text-align: center;
+    }
+
+    .tix-column-price {
+      font-weight: bold;
+    }
+
+    .tix-column-remaining {
+      color: green;
+    }
+
+    .tix-column-quantity select {
+      width: 60px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+}
