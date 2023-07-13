@@ -1,13 +1,14 @@
-@import 'abstract/variables';
-@import 'abstract/general';
+@import "abstract/variables";
+@import "abstract/general";
 
-@import 'components/header';
-@import 'components/cards';
-@import 'components/expect-cards';
-@import 'components/sponsor-list';
-@import 'components/blog';
-@import 'components/our-orgnizer';
-@import 'components/forms';
+@import "components/header";
+@import "components/cards";
+@import "components/expect-cards";
+@import "components/sponsor-list";
+@import "components/blog";
+@import "components/our-orgnizer";
+@import "components/forms";
 
-@import 'pages/blog-single';
-@import 'pages/contact-us';
+@import "pages/blog-single";
+@import "pages/contact-us";
+@import "pages/speskers";
