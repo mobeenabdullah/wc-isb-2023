@@ -458,4 +458,22 @@ input, textarea, select {
 	margin-bottom: 2rem;
 }
 
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__title {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__title a {
+	font-size: 28px;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 1;
+	color: #000;
+	display: block;
+}
+
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-image__avatar-container a {
+	display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,25 @@
       border-radius: 10px;
       padding: 2rem;
       margin-bottom: 2rem;
+      & .wordcamp-speaker {
+        & .wordcamp-speakers__title {
+          margin: 0;
+          margin-bottom: 20px;
+          & a {
+            font-size: 28px;
+            font-weight: 600;
+            text-decoration: none;
+            line-height: 1;
+            color: #000;
+            display: block;
+          }
+        }
+        & .wordcamp-image__avatar-container  {
+            & a {
+                display: block;
+            }
+        }
+      }
     }
   }
 }
