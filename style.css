@@ -1,442 +1,460 @@
 .wp-site-blocks {
-	padding: 0;
+  padding: 0;
 }
 
 .home .wp-block-post-title {
-	display: none;
+  display: none;
 }
 
 .home .wp-block-group {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .home .entry-content {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .call__section .wp-block-columns {
-	justify-content: center !important;
+  justify-content: center !important;
 }
 
 .call__section .wp-block-column.cards__column {
-	flex-basis: 80% !important;
+  flex-basis: 80% !important;
 }
 
 .hero__main {
-	position: relative;
+  position: relative;
 }
 
 .hero__main .wp-block-group {
-	position: relative;
-	z-index: 5;
+  position: relative;
+  z-index: 5;
 }
 
 .hero__main::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url(https://islamabad.wordcamp.org/2023/files/2023/07/New-Project-6.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	z-index: 1;
-	opacity: 0.4;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://islamabad.wordcamp.org/2023/files/2023/07/New-Project-6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 1;
+  opacity: 0.4;
 }
 
 .home .wp-block-group.call__section {
-	margin-top: -80px !important;
-	position: relative;
-	z-index: 6;
+  margin-top: -80px !important;
+  position: relative;
+  z-index: 6;
 }
 
 .hero-title {
-	font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);
-	line-height: 1.2;
+  font-size: clamp(
+    2.625rem,
+    calc(2.625rem + ((1vw - 0.48rem) * 8.4135)),
+    3.25rem
+  );
+  line-height: 1.2;
 }
 
 .hero-title span {
-	color: #3fba36;
-	font-weight: 600;
+  color: #3fba36;
+  font-weight: 600;
 }
 
 .hero__buttons .wp-block-button a {
-	transition: all .2s;
+  transition: all 0.2s;
 }
 
 .hero__buttons .wp-block-button a:hover {
-	background-color: #38a630 !important;
-	color: #fff !important;
-	border-color: #38a630 !important;
+  background-color: #38a630 !important;
+  color: #fff !important;
+  border-color: #38a630 !important;
 }
 
 .post__content a {
-	color: #3fba36;
+  color: #3fba36;
 }
 
 .post__content a:hover {
-	color: #38a630;
-	text-decoration: underline;
+  color: #38a630;
+  text-decoration: underline;
 }
 
 .post__content span {
-	color: #3fba36 !important;
+  color: #3fba36 !important;
 }
 
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container {
-	z-index: 999;
+  z-index: 999;
 }
 
 .main__menu button {
-	background-color: transparent !important;
-	color: #000 !important;
+  background-color: transparent !important;
+  color: #000 !important;
 }
 
-.page-slug-contact .wp-block-post-title, .page-slug-code-of-conduct .wp-block-post-title, .page-slug-speakers .wp-block-post-title, .page-slug-sponsors .wp-block-post-title, .page-slug-wordcamp-islamabad-2023 .wp-block-post-title, .page-slug-organizers .wp-block-post-title {
-	display: none;
+.page-slug-contact .wp-block-post-title,
+.page-slug-code-of-conduct .wp-block-post-title,
+.page-slug-speakers .wp-block-post-title,
+.page-slug-sponsors .wp-block-post-title,
+.page-slug-wordcamp-islamabad-2023 .wp-block-post-title,
+.page-slug-organizers .wp-block-post-title {
+  display: none;
 }
 
 .page-slug-wordcamp-islamabad-2023 .main__header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 @media screen and (max-width: 767px) {
-	.page-slug-wordcamp-islamabad-2023 .main__header {
-		position: relative;
-	}
-	.hero__main .wp-block-group {
-		padding-top: 50px !important;
-		padding-bottom: 140px !important;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.hero__main .hero__image {
-		display: none;
-	}
-	.what__expect {
-		padding-top: 0 !important;
-	}
-	.useful__links {
-		padding-left: 0 !important;
-	}
-	.wp-block-navigation__submenu-container {
-		padding: 0;
-	}
-	.hero__main .wp-block-heading {
-		font-size: 30px !important;
-	}
+  .page-slug-wordcamp-islamabad-2023 .main__header {
+    position: relative;
+  }
+  .hero__main .wp-block-group {
+    padding-top: 50px !important;
+    padding-bottom: 140px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .hero__main .hero__image {
+    display: none;
+  }
+  .what__expect {
+    padding-top: 0 !important;
+  }
+  .useful__links {
+    padding-left: 0 !important;
+  }
+  .wp-block-navigation__submenu-container {
+    padding: 0;
+  }
+  .hero__main .wp-block-heading {
+    font-size: 30px !important;
+  }
 }
 
 .wp-block-navigation__container .wp-block-navigation-item a:hover {
-	text-decoration: none;
-	color: #3fba36;
+  text-decoration: none;
+  color: #3fba36;
 }
 
 .info__boxes {
-	display: flex;
-	align-items: stretch;
-	justify-content: center;
-	width: 100%;
-	gap: 30px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
 }
 
 .info__boxes-single {
-	background-color: #fff;
-	padding: 20px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
-	border-radius: 10px;
-	text-align: center;
-	width: calc(100% / 3);
-	color: #000 !important;
-	text-decoration: none;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-align: center;
+  width: calc(100% / 3);
+  color: #000 !important;
+  text-decoration: none;
 }
 
 .info__boxes-single-icon {
-	display: inline-flex;
-	width: 122px;
-	padding: 1.5rem;
-	box-sizing: border-box;
+  display: inline-flex;
+  width: 122px;
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .info__boxes-single-icon img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .info__boxes-single--content h3 {
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 1;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 @media screen and (max-width: 767px) {
-	.info__boxes {
-		flex-wrap: wrap;
-		padding: 0 30px;
-		box-sizing: border-box;
-		gap: 0;
-	}
-	.info__boxes-single {
-		width: 100%;
-		margin-bottom: 30px;
-	}
+  .info__boxes {
+    flex-wrap: wrap;
+    padding: 0 30px;
+    box-sizing: border-box;
+    gap: 0;
+  }
+  .info__boxes-single {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 .expect__list {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	text-align: center;
-	grid-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  grid-gap: 1.5rem;
 }
 
 .expect__list-single {
-	justify-self: center;
-	width: 100%;
-	padding: 1.5rem;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
-	box-sizing: border-box;
+  justify-self: center;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .expect__list-single-icon {
-	max-width: 5rem;
-	max-height: 5rem;
-	display: inline-block;
-	margin-bottom: 1rem;
-	width: 100%;
-	height: 100%;
+  max-width: 5rem;
+  max-height: 5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
-.expect__list-single-icon img, .expect__list-single-icon svg {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	display: block;
+.expect__list-single-icon img,
+.expect__list-single-icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .expect__list-single-title h3 {
-	margin: 0;
-	font-size: 1.3rem;
-	font-weight: 500;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
-	.expect__list {
-		grid-template-columns: repeat(2, 1fr);
-		padding: 0 30px;
-	}
+  .expect__list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 30px;
+  }
 }
 
 .sponsor__list ul {
-	display: flex;
-	align-items: stretch;
-	justify-content: center;
-	gap: 1.5rem;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .sponsor__list ul li {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-	padding: 1.5rem;
-	background: rgba(0, 0, 0, 0.03);
-	border-radius: 10px;
-	width: calc(100% / 4);
-	min-height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  width: calc(100% / 4);
+  min-height: 8rem;
 }
 
 .sponsor__list ul li figure {
-	margin-bottom: 0;
-	width: 200px;
+  margin-bottom: 0;
+  width: 200px;
 }
 
-.diamond__list, .gold__list, .silver__list {
-	display: flex;
-	align-items: stretch;
-	justify-content: center;
-	gap: 1.5rem;
-	flex-wrap: wrap;
-	padding: 0;
+.diamond__list,
+.gold__list,
+.silver__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
-.diamond__list li, .gold__list li, .silver__list li {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-	border: 1px solid rgba(0, 0, 0, 0.08);
-	width: calc(100% / 4);
-	padding: 1.5rem;
-	border-radius: 10px;
+.diamond__list li,
+.gold__list li,
+.silver__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  width: calc(100% / 4);
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 
-.diamond__list li a img, .gold__list li a img, .silver__list li a img {
-	margin-bottom: 0;
-	height: auto;
+.diamond__list li a img,
+.gold__list li a img,
+.silver__list li a img {
+  margin-bottom: 0;
+  height: auto;
 }
 
 .diamond__list li a img {
-	width: 300px;
+  width: 300px;
 }
 
 .gold__list li a img {
-	width: 220px;
+  width: 220px;
 }
 
 .silver__list li a img {
-	width: 180px;
+  width: 180px;
 }
 
 .sponsor__labels {
-	display: inline-block;
-	padding: 10px 30px 12px !important;
-	border-radius: 10px;
+  display: inline-block;
+  padding: 10px 30px 12px !important;
+  border-radius: 10px;
 }
 
 .sponsor__heading-cover {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
-	.our__sponsors {
-		padding: 0 30px;
-	}
+  .our__sponsors {
+    padding: 0 30px;
+  }
 }
 
 .blog__posts .wp-block-latest-posts__featured-image {
-	margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .blog__posts .wp-block-latest-posts__featured-image a {
-	width: 100%;
+  width: 100%;
 }
 
 .blog__posts .wp-block-latest-posts__featured-image a img {
-	height: 300px;
-	max-width: 100%;
-	width: 100%;
-	object-fit: cover;
-	display: block;
-	border-radius: 10px;
+  height: 300px;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
 }
 
 .blog__posts .wp-block-latest-posts__post-title {
-	font-size: 1.2rem;
-	font-weight: 600;
-	text-decoration: none;
-	margin-bottom: 1rem;
-	display: block;
-	color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  display: block;
+  color: #000;
 }
 
 .blog__posts time.wp-block-latest-posts__post-date {
-	font-size: .8rem;
-	font-weight: 500;
-	line-height: 1;
-	display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  display: inline-block;
 }
 
 .blog__posts .wp-block-latest-posts__post-author {
-	font-size: .8rem;
-	font-weight: 500;
-	line-height: 1;
-	display: inline-block;
-	margin-right: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .blog__posts .wp-block-latest-posts__post-excerpt {
-	margin-bottom: 1em;
-	margin-top: 1rem;
-	clear: both;
+  margin-bottom: 1em;
+  margin-top: 1rem;
+  clear: both;
 }
 
 @media screen and (max-width: 767px) {
-	.blog__posts {
-		background-color: transparent;
-	}
-	.blog__posts.wp-block-latest-posts.is-grid {
-		padding: 0 30px;
-	}
-	.blog__posts li {
-		margin: 0 0 30px 0 !important;
-		margin-bottom: 30px;
-	}
+  .blog__posts {
+    background-color: transparent;
+  }
+  .blog__posts.wp-block-latest-posts.is-grid {
+    padding: 0 30px;
+  }
+  .blog__posts li {
+    margin: 0 0 30px 0 !important;
+    margin-bottom: 30px;
+  }
 }
 
 .our__orgnizers ul .wp-block-wordcamp-avatar {
-	border-radius: 50%;
-	overflow: hidden;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .our__orgnizers ul .wp-block-post-title {
-	display: block;
+  display: block;
 }
 
 .our__orgnizers ul .wp-block-post-title a {
-	color: #000;
+  color: #000;
 }
 
 .our__orgnizers ul .wp-block-post-excerpt__excerpt {
-	font-size: 16px;
-	line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .our__orgnizers ul .wp-block-post-excerpt {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .our__orgnizers ul .wp-block-post-excerpt__more-text {
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .our__orgnizers ul li {
-	padding: 20px;
-	box-sizing: border-box;
-	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
-	border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 767px) {
-	.our__orgnizers {
-		padding: 0 30px;
-	}
+  .our__orgnizers {
+    padding: 0 30px;
+  }
 }
 
 button {
-	background-color: #3fba36 !important;
-	border-radius: 6px !important;
-	color: #fff !important;
+  background-color: #3fba36 !important;
+  border-radius: 6px !important;
+  color: #fff !important;
 }
 
-input, textarea, select {
-	border-radius: 6px !important;
+input,
+textarea,
+select {
+  border-radius: 6px !important;
 }
 
-#subscribe-submit button[type='submit'] {
-	background-color: #3fba36 !important;
-	border-color: #3fba36 !important;
-	border-radius: 6px !important;
-	color: #fff !important;
+#subscribe-submit button[type="submit"] {
+  background-color: #3fba36 !important;
+  border-color: #3fba36 !important;
+  border-radius: 6px !important;
+  color: #fff !important;
 }
 
 .blog__single .wp-block-button__link {
-	background-color: #3fba36 !important;
+  background-color: #3fba36 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
