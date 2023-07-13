@@ -601,4 +601,51 @@ input, textarea, select {
 	flex: 1;
 }
 
+.page-slug-tickets .tix-js {
+	width: 100% !important;
+}
+
+.page-slug-tickets .tix-js table.tix_tickets_table {
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+}
+
+.page-slug-tickets .tix-js th,
+.page-slug-tickets .tix-js td {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.page-slug-tickets .tix-js th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.page-slug-tickets .tix-js .tix-column-description {
+	width: 50%;
+}
+
+.page-slug-tickets .tix-js .tix-column-price,
+.page-slug-tickets .tix-js .tix-column-remaining,
+.page-slug-tickets .tix-js .tix-column-quantity {
+	text-align: center;
+}
+
+.page-slug-tickets .tix-js .tix-column-price {
+	font-weight: bold;
+}
+
+.page-slug-tickets .tix-js .tix-column-remaining {
+	color: green;
+}
+
+.page-slug-tickets .tix-js .tix-column-quantity select {
+	width: 60px;
+}
+
+.page-slug-tickets .tix-js tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
 /*# sourceMappingURL=style.css.map */
