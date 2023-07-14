@@ -510,7 +510,8 @@ input, textarea, select {
 	display: inline-block;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 5px solid rgba(0, 0, 0, 0.1);
+	border: 5px solid #fff;
+	outline: 5px solid rgba(0, 0, 0, 0.05);
 }
 
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-image__avatar-container a img {
