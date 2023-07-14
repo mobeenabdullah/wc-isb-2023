@@ -613,6 +613,16 @@ input, textarea, select {
 	width: calc(25% - 20px) !important;
 }
 
+.page-slug-attendees .tix-attendee-list li .tix-field {
+	font-size: 12px !important;
+	color: #3fba36;
+}
+
+.page-slug-attendees .tix-attendee-list li .tix-attendee-name {
+	font-weight: 600;
+	font-size: 16px;
+}
+
 .page-slug-tickets .tix-js {
 	max-width: 1200px !important;
 	margin: 0 auto !important;
