@@ -11,7 +11,7 @@
       border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 10px;
       padding: 2rem;
-      width: calc(100% / 3 - 20px);
+      width: 100%;
       box-sizing: border-box;
 
       & .wordcamp-speaker {
@@ -45,6 +45,14 @@
         .wordcamp-speakers__content span {
           font-size: 16px !important;
           line-height: 24px;
+        }
+        & .wordcamp-speakers__content {
+          & .wp-block-heading {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 28px;
+            margin-bottom: 0;
+          }
         }
       }
     }
