@@ -477,6 +477,12 @@ input, textarea, select {
 	box-sizing: border-box;
 }
 
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__title {
 	margin: 0;
 	margin-bottom: 20px;
