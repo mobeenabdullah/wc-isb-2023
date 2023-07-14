@@ -596,6 +596,11 @@ input, textarea, select {
 	left: 0;
 }
 
+.page-slug-attendees main.wp-block-group,
+.page-slug-attendees .entry-content {
+	margin-top: 0 !important;
+}
+
 .page-slug-attendees .tix-attendee-list {
 	padding: 0;
 }

@@ -1,4 +1,8 @@
 .page-slug-attendees {
+  & main.wp-block-group,
+  & .entry-content {
+    margin-top: 0 !important;
+  }
   & .tix-attendee-list {
     padding: 0;
 
