@@ -518,8 +518,8 @@ input, textarea, select {
 
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__content p,
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__content span {
-	font-size: 16px !important;
-	line-height: 24px;
+	font-size: 18px !important;
+	line-height: 32px !important;
 }
 
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__content .wp-block-heading {
