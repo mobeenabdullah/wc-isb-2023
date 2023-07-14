@@ -10,7 +10,7 @@
         & .wp-block-post-title {
             display: block;                        
             & a {
-                color: #000;
+                color: $black-color;
             }
         }  
         & .wp-block-post-excerpt__excerpt {

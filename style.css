@@ -96,7 +96,7 @@ body {
 
 .main__menu button {
 	background-color: transparent !important;
-	color: #0a3773 !important;
+	color: #303030 !important;
 }
 
 .page-slug-contact .wp-block-post-title,
@@ -165,7 +165,7 @@ body {
 	border-radius: 10px;
 	text-align: center;
 	width: calc(100% / 3);
-	color: #0a3773 !important;
+	color: #303030 !important;
 	text-decoration: none;
 }
 
@@ -364,7 +364,7 @@ body {
 	text-decoration: none;
 	margin-bottom: 1rem;
 	display: block;
-	color: #000;
+	color: #303030;
 }
 
 .blog__posts time.wp-block-latest-posts__post-date {
@@ -411,7 +411,7 @@ body {
 }
 
 .our__orgnizers ul .wp-block-post-title a {
-	color: #000;
+	color: #303030;
 }
 
 .our__orgnizers ul .wp-block-post-excerpt__excerpt {
@@ -574,7 +574,7 @@ input, textarea, select {
 	font-size: 30px;
 	font-weight: 600;
 	text-decoration: none;
-	color: #000;
+	color: #303030;
 	padding-left: 30px;
 	position: relative;
 }
@@ -617,7 +617,7 @@ input, textarea, select {
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
-	color: #0a3773;
+	color: #303030;
 	font-weight: 600;
 	font-size: 16px;
 }
@@ -713,7 +713,7 @@ input, textarea, select {
 	float: right;
 	cursor: pointer;
 	padding: 8px 16px;
-	background-color: #4caf50;
+	background-color: #3fba36;
 	color: #fff;
 	border: none;
 	border-radius: 4px;
@@ -721,12 +721,12 @@ input, textarea, select {
 }
 
 .page-slug-tickets input[type="submit"]:hover {
-	background-color: #45a049;
+	background-color: #3fba36;
 }
 
 .page-slug-tickets input[type="submit"]:focus {
 	outline: none;
-	box-shadow: 0 0 0 2px #4caf50;
+	box-shadow: 0 0 0 2px #3fba36;
 }
 
 /*# sourceMappingURL=style.css.map */
