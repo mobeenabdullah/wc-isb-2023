@@ -1,6 +1,7 @@
 .page-slug-speakers {
-  & main.wp-block-group {
-    margin-top: 0;
+  & main.wp-block-group,
+  & .entry-content {
+    margin-top: 0 !important;
   }
   & .wordcamp-speakers {
     padding: 0;
