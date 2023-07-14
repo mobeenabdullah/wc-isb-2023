@@ -465,6 +465,10 @@ input, textarea, select {
 	background-color: #3fba36 !important;
 }
 
+.page-slug-speakers main.wp-block-group {
+	margin-top: 0;
+}
+
 .page-slug-speakers .wordcamp-speakers {
 	padding: 0;
 	display: grid;
