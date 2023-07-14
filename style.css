@@ -271,7 +271,9 @@
 	width: 200px;
 }
 
-.diamond__list, .gold__list, .silver__list {
+.diamond__list,
+.gold__list,
+.silver__list {
 	display: flex;
 	align-items: stretch;
 	justify-content: center;
@@ -280,7 +282,9 @@
 	padding: 0;
 }
 
-.diamond__list li, .gold__list li, .silver__list li {
+.diamond__list li,
+.gold__list li,
+.silver__list li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -291,7 +295,9 @@
 	border-radius: 10px;
 }
 
-.diamond__list li a img, .gold__list li a img, .silver__list li a img {
+.diamond__list li a img,
+.gold__list li a img,
+.silver__list li a img {
 	margin-bottom: 0;
 	height: auto;
 }
@@ -300,8 +306,16 @@
 	width: 300px;
 }
 
+.gold__list li {
+	width: calc(100% / 7);
+}
+
 .gold__list li a img {
 	width: 220px;
+}
+
+.silver__list li {
+	width: calc(100% / 10);
 }
 
 .silver__list li a img {
@@ -462,6 +476,10 @@ input, textarea, select {
 	padding: 2rem;
 	width: 100%;
 	box-sizing: border-box;
+}
+
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker {
+	display: flex;
 }
 
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post .wordcamp-speaker .wordcamp-speakers__title {

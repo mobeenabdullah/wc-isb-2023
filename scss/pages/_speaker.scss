@@ -15,6 +15,7 @@
       box-sizing: border-box;
 
       & .wordcamp-speaker {
+        display: flex;
         & .wordcamp-speakers__title {
           margin: 0;
           margin-bottom: 20px;
