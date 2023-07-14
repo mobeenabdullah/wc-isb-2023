@@ -42,9 +42,11 @@
     padding: 1.5rem;
     border-radius: 10px;
     & a {
-      & img {
-        margin-bottom: 0;
-        height: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
       }
     }
   }
@@ -62,6 +64,7 @@
 .gold__list {
   & li {
     width: calc(100% / 7);
+    padding: 1rem;
     & a {
       & img {
         width: 220px;
@@ -72,6 +75,7 @@
 .silver__list {
   & li {
     width: calc(100% / 10);
+    padding: 1rem;
     & a {
       & img {
         width: 180px;

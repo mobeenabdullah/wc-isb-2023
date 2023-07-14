@@ -298,8 +298,10 @@
 .diamond__list li a img,
 .gold__list li a img,
 .silver__list li a img {
-	margin-bottom: 0;
-	height: auto;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
 }
 
 .diamond__list li a img {
@@ -308,6 +310,7 @@
 
 .gold__list li {
 	width: calc(100% / 7);
+	padding: 1rem;
 }
 
 .gold__list li a img {
@@ -316,6 +319,7 @@
 
 .silver__list li {
 	width: calc(100% / 10);
+	padding: 1rem;
 }
 
 .silver__list li a img {
