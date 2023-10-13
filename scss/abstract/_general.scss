@@ -157,12 +157,13 @@ body {
     }
   }
 }
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
   .attendees__header {
     padding: 2rem !important;
   }
+}
+
+@media screen and (max-width: 767px) {
   .page-slug-attendees {
     & #tix-attendees {
       & .tix-attendee-list {
