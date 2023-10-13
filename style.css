@@ -146,6 +146,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+	.attendees__header {
+		padding: 2rem !important;
+	}
 	.page-slug-attendees #tix-attendees .tix-attendee-list {
 		display: flex;
 		flex-wrap: wrap;
