@@ -17,6 +17,7 @@
       box-sizing: border-box;
       margin-right: 20px;
       width: calc(25% - 20px) !important;
+      height: auto !important;
       & img.avatar {
         width: 80px !important;
         height: 80px !important;
@@ -25,7 +26,7 @@
       & .tix-field {
         font-size: 12px !important;
         color: $primary-color;
-        margin-left: 100px;
+        margin-left: 100px !important;
       }
       & .tix-attendee-name {
         color: $black-color;

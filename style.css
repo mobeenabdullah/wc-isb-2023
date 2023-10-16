@@ -627,6 +627,7 @@ input, textarea, select {
 	box-sizing: border-box;
 	margin-right: 20px;
 	width: calc(25% - 20px) !important;
+	height: auto !important;
 }
 
 .page-slug-attendees .tix-attendee-list li img.avatar {
@@ -638,7 +639,7 @@ input, textarea, select {
 .page-slug-attendees .tix-attendee-list li .tix-field {
 	font-size: 12px !important;
 	color: #3fba36;
-	margin-left: 100px;
+	margin-left: 100px !important;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
