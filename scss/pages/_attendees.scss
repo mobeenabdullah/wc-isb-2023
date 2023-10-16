@@ -4,16 +4,18 @@
     margin-top: 0 !important;
   }
   & .tix-attendee-list {
+    /*
     display: grid;
     flex-wrap: wrap;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
+    */
     padding: 0;
 
     & li {
-      /*
+      
       float: left;
       width: 50%;
       margin-bottom: 15px;
@@ -26,11 +28,11 @@
       width: calc(25% - 20px) !important;
       height: auto !important;
       border-radius: 0.5rem;
-      */
+      /*
       width: auto !important;
       height: auto;
       margin: 0 !important;
-      background-color: rgba(0, 0, 0, 0.08);
+      background-color: rgba(0, 0, 0, 0.03);
       justify-content: center;
       border-radius: 5px;
       // box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.08);
@@ -38,12 +40,14 @@
       padding: 20px 20px 20px 140px;
       position: relative;
       overflow: hidden;
+      */
       & img.avatar {
-        /*
+        
         width: 80px !important;
         height: 80px !important;
         border-radius: 50% !important;
-        */
+        
+        /*
         width: 120px !important;
         height: 100% !important;
         left: 0;
@@ -51,32 +55,35 @@
         object-fit: cover;
         position: absolute;
         top: 0;
+        */
       }
-      & .tix-field {
-        /*
+      & .tix-field {        
         font-size: 12px !important;
         color: $primary-color;
         margin-left: 100px !important;
-        */
+        
+        /*
         margin: 0;
         padding-bottom: 2px;
         padding-top: 2px;
         word-wrap: anywhere;
         margin-left: 0 !important;
         font-size: 18px !important;
+        */
       }
-      & .tix-attendee-name {
-        /*
+      & .tix-attendee-name {        
         color: $black-color;
         font-weight: 600;
         font-size: 16px !important;
-        */
+        
+        /*
         display: block;
         font-size: 17px;
         font-weight: 500;
         padding-bottom: 2px;
         padding-top: 2px;
         word-wrap: anywhere;
+        */
       }
       &  .tix-field {
         margin: 0;

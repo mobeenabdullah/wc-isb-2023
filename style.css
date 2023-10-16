@@ -612,83 +612,85 @@ input, textarea, select {
 }
 
 .page-slug-attendees .tix-attendee-list {
-	display: grid;
-	flex-wrap: wrap;
-	width: 100%;
-	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 40px;
-	grid-row-gap: 40px;
+	/*
+    display: grid;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    */
 	padding: 0;
 }
 
 .page-slug-attendees .tix-attendee-list li {
-	/*
-      float: left;
-      width: 50%;
-      margin-bottom: 15px;
-      height: auto;
-      background: rgba(0,0,0,0.03);
-      // box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
-      padding: 10px;
-      box-sizing: border-box;
-      margin-right: 20px;
-      width: calc(25% - 20px) !important;
-      height: auto !important;
-      border-radius: 0.5rem;
-      */
-	width: auto !important;
+	float: left;
+	width: 50%;
+	margin-bottom: 15px;
 	height: auto;
-	margin: 0 !important;
-	background-color: rgba(0, 0, 0, 0.08);
-	justify-content: center;
-	border-radius: 5px;
-	min-height: 120px !important;
-	padding: 20px 20px 20px 140px;
-	position: relative;
-	overflow: hidden;
+	background: rgba(0, 0, 0, 0.03);
+	padding: 10px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	width: calc(25% - 20px) !important;
+	height: auto !important;
+	border-radius: 0.5rem;
+	/*
+      width: auto !important;
+      height: auto;
+      margin: 0 !important;
+      background-color: rgba(0, 0, 0, 0.03);
+      justify-content: center;
+      border-radius: 5px;
+      // box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.08);
+      min-height: 120px !important;
+      padding: 20px 20px 20px 140px;
+      position: relative;
+      overflow: hidden;
+      */
 }
 
 .page-slug-attendees .tix-attendee-list li img.avatar {
+	width: 80px !important;
+	height: 80px !important;
+	border-radius: 50% !important;
 	/*
-        width: 80px !important;
-        height: 80px !important;
-        border-radius: 50% !important;
+        width: 120px !important;
+        height: 100% !important;
+        left: 0;
+        min-height: 100px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
         */
-	width: 120px !important;
-	height: 100% !important;
-	left: 0;
-	min-height: 100px;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-field {
+	font-size: 12px !important;
+	color: #3fba36;
+	margin-left: 100px !important;
 	/*
-        font-size: 12px !important;
-        color: $primary-color;
-        margin-left: 100px !important;
+        margin: 0;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        word-wrap: anywhere;
+        margin-left: 0 !important;
+        font-size: 18px !important;
         */
-	margin: 0;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	word-wrap: anywhere;
-	margin-left: 0 !important;
-	font-size: 18px !important;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
+	color: #303030;
+	font-weight: 600;
+	font-size: 16px !important;
 	/*
-        color: $black-color;
-        font-weight: 600;
-        font-size: 16px !important;
+        display: block;
+        font-size: 17px;
+        font-weight: 500;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        word-wrap: anywhere;
         */
-	display: block;
-	font-size: 17px;
-	font-weight: 500;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	word-wrap: anywhere;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-field {
