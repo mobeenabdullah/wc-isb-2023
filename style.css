@@ -629,9 +629,10 @@ input, textarea, select {
 	width: calc(25% - 20px) !important;
 }
 
-.page-slug-attendees .tix-attendee-list li img {
-	width: 80px;
-	height: 80px;
+.page-slug-attendees .tix-attendee-list li img.avatar {
+	width: 80px !important;
+	height: 80px !important;
+	border-radius: 50% !important;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-field {
