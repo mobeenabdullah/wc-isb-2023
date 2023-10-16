@@ -612,6 +612,12 @@ input, textarea, select {
 }
 
 .page-slug-attendees .tix-attendee-list {
+	display: grid;
+	flex-wrap: wrap;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
 	padding: 0;
 }
 
