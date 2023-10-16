@@ -621,24 +621,29 @@ input, textarea, select {
 	float: left;
 	width: 50%;
 	margin-bottom: 15px;
-	height: 80px;
-	background: #fff;
-	box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+	height: auto;
+	background: rgba(0, 0, 0, 0.03);
 	padding: 10px;
 	box-sizing: border-box;
 	margin-right: 20px;
 	width: calc(25% - 20px) !important;
 }
 
+.page-slug-attendees .tix-attendee-list li img {
+	width: 80px;
+	height: 80px;
+}
+
 .page-slug-attendees .tix-attendee-list li .tix-field {
 	font-size: 12px !important;
 	color: #3fba36;
+	margin-left: 100px;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
 	color: #303030;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 16px !important;
 }
 
 .page-slug-tickets .tix-js {
