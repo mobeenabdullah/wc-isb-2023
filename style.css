@@ -649,22 +649,6 @@ input, textarea, select {
       */
 }
 
-.page-slug-attendees .tix-attendee-list li .tix-columns-1 {
-	width: 100% !important;
-}
-
-.page-slug-attendees .tix-attendee-list li .tix-columns-2 {
-	width: calc(50% - 20px) !important;
-}
-
-.page-slug-attendees .tix-attendee-list li .tix-columns-3 {
-	width: calc(33.333% - 20px) !important;
-}
-
-.page-slug-attendees .tix-attendee-list li .tix-columns-4 {
-	width: calc(25% - 20px) !important;
-}
-
 .page-slug-attendees .tix-attendee-list li img.avatar {
 	width: 80px !important;
 	height: 80px !important;
@@ -713,6 +697,22 @@ input, textarea, select {
 	padding-bottom: 2px;
 	padding-top: 2px;
 	word-wrap: anywhere;
+}
+
+.page-slug-attendees .tix-attendee-list.tix-columns-1 li {
+	width: 100% !important;
+}
+
+.page-slug-attendees .tix-attendee-list.tix-columns-2 li {
+	width: calc(50% - 20px) !important;
+}
+
+.page-slug-attendees .tix-attendee-list.tix-columns-3 li {
+	width: calc(33.333% - 20px) !important;
+}
+
+.page-slug-attendees .tix-attendee-list.tix-columns-4 li {
+	width: calc(25% - 20px) !important;
 }
 
 .sharedaddy {
