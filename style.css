@@ -636,7 +636,7 @@ input, textarea, select {
       height: auto !important;
       border-radius: 0.5rem;
       */
-	width: 100% !important;
+	width: auto !important;
 	height: auto;
 	margin: 0 !important;
 	background-color: #fff;
@@ -674,6 +674,8 @@ input, textarea, select {
 	padding-bottom: 2px;
 	padding-top: 2px;
 	word-wrap: anywhere;
+	margin-left: 0 !important;
+	font-size: 18px !important;
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
