@@ -632,7 +632,6 @@ input, textarea, select {
 	padding: 10px;
 	box-sizing: border-box;
 	margin-right: 20px;
-	width: calc(25% - 20px) !important;
 	height: auto !important;
 	border-radius: 0.5rem;
 	/*
@@ -648,6 +647,22 @@ input, textarea, select {
       position: relative;
       overflow: hidden;
       */
+}
+
+.page-slug-attendees .tix-attendee-list li .tix-columns-1 {
+	width: 100% !important;
+}
+
+.page-slug-attendees .tix-attendee-list li .tix-columns-2 {
+	width: calc(50% - 20px) !important;
+}
+
+.page-slug-attendees .tix-attendee-list li .tix-columns-3 {
+	width: calc(33.333% - 20px) !important;
+}
+
+.page-slug-attendees .tix-attendee-list li .tix-columns-4 {
+	width: calc(25% - 20px) !important;
 }
 
 .page-slug-attendees .tix-attendee-list li img.avatar {
