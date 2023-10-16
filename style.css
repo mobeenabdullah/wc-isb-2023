@@ -153,14 +153,12 @@ body {
 
 @media screen and (max-width: 767px) {
 	.page-slug-attendees #tix-attendees .tix-attendee-list {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 1rem;
+		display: block;
 	}
 	.page-slug-attendees #tix-attendees .tix-attendee-list li {
 		margin-right: 0 !important;
-		width: calc(50% - 20px) !important;
-		margin-bottom: 0 !important;
+		width: 100% !important;
+		margin-bottom: 20px !important;
 	}
 }
 
