@@ -67,6 +67,15 @@
       }
     } 
   }
+  & .buy-ticket-header-btn {
+    & a {
+      display: block;
+      padding: 6px 20px;
+      background-color: $primary-color;
+      color: $white-color;
+      border-radius: 5px;
+    }
+  }
 }
 
 .sharedaddy {

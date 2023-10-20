@@ -674,6 +674,14 @@ input, textarea, select {
 	width: calc(25% - 20px) !important;
 }
 
+.page-slug-attendees .buy-ticket-header-btn a {
+	display: block;
+	padding: 6px 20px;
+	background-color: #3fba36;
+	color: #fff;
+	border-radius: 5px;
+}
+
 .sharedaddy {
 	max-width: 1200px !important;
 	width: 100%;
