@@ -678,8 +678,14 @@ input, textarea, select {
 	display: block;
 	padding: 6px 20px;
 	background-color: #3fba36;
-	color: #fff;
+	color: #fff !important;
 	border-radius: 5px;
+}
+
+.page-slug-attendees .buy-ticket-header-btn a:hover {
+	background-color: #38a630 !important;
+	color: #fff !important;
+	border-color: #38a630 !important;
 }
 
 .sharedaddy {
