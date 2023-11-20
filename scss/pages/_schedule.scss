@@ -10,10 +10,20 @@
         }
         & thead {
             background-color: #3EBA36;
+            & tr {
+                & td {
+                    padding: 0.5rem 0.5rem;
+                }
+            }
         }
         & tbody {
             & tr:nth-child(even) {
                 background-color: rgba(0,0,0,0.05);
+            }
+            & tr {
+                & td {
+                    padding: 0.5rem 0.5rem;
+                }
             }
         }
     }
