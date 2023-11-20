@@ -130,20 +130,20 @@ body {
 	margin: 0 !important;
 }
 
-.page-slug-about .wp-block-post-title, .page-slug-tickets .wp-block-post-title, .page-slug-about .wp-block-post-title, .page-slug-location
-.page-slug-news .wp-block-post-title, .page-slug-students-discount .wp-block-post-title, .page-slug-tickets
+.page-slug-about .wp-block-post-title, .page-slug-tickets .wp-block-post-title, .page-slug-about .wp-block-post-title, .page-slug-location .wp-block-post-title,
+.page-slug-news .wp-block-post-title, .page-slug-students-discount .wp-block-post-title, .page-slug-tickets .wp-block-post-title,
 .page-slug-sponsors .wp-block-post-title, .page-slug-organizers .wp-block-post-title, .page-slug-contact .wp-block-post-title {
 	display: none;
 }
 
-.page-slug-about #wp--skip-link--target, .page-slug-tickets #wp--skip-link--target, .page-slug-about #wp--skip-link--target, .page-slug-location
-.page-slug-news #wp--skip-link--target, .page-slug-students-discount #wp--skip-link--target, .page-slug-tickets
+.page-slug-about #wp--skip-link--target, .page-slug-tickets #wp--skip-link--target, .page-slug-about #wp--skip-link--target, .page-slug-location #wp--skip-link--target,
+.page-slug-news #wp--skip-link--target, .page-slug-students-discount #wp--skip-link--target, .page-slug-tickets #wp--skip-link--target,
 .page-slug-sponsors #wp--skip-link--target, .page-slug-organizers #wp--skip-link--target, .page-slug-contact #wp--skip-link--target {
 	margin-top: 0 !important;
 }
 
-.page-slug-about .wp-block-post-content, .page-slug-tickets .wp-block-post-content, .page-slug-about .wp-block-post-content, .page-slug-location
-.page-slug-news .wp-block-post-content, .page-slug-students-discount .wp-block-post-content, .page-slug-tickets
+.page-slug-about .wp-block-post-content, .page-slug-tickets .wp-block-post-content, .page-slug-about .wp-block-post-content, .page-slug-location .wp-block-post-content,
+.page-slug-news .wp-block-post-content, .page-slug-students-discount .wp-block-post-content, .page-slug-tickets .wp-block-post-content,
 .page-slug-sponsors .wp-block-post-content, .page-slug-organizers .wp-block-post-content, .page-slug-contact .wp-block-post-content {
 	margin: 0 !important;
 }
