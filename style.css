@@ -819,8 +819,7 @@ input, textarea, select {
 }
 
 .contributor__day-table {
-	max-width: 100% !important;
-	width: 100% !important;
+	background-color: blue;
 }
 
 .contributor__day-table thead {
