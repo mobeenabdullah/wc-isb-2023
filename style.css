@@ -615,15 +615,14 @@ input, textarea, select {
 	margin-top: 0 !important;
 }
 
+.page-slug-attendees .micro__sponsors li {
+	box-shadow: 7px 7px 0px 0px rgba(63, 186, 54, 0.3);
+	border-radius: 0 !important;
+	border: 1px solid #ddd;
+	padding: 10px 20px !important;
+}
+
 .page-slug-attendees .tix-attendee-list {
-	/*
-    display: grid;
-    flex-wrap: wrap;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    */
 	padding: 0;
 }
 
@@ -632,68 +631,28 @@ input, textarea, select {
 	width: 50%;
 	margin-bottom: 15px;
 	height: auto;
-	background: rgba(0, 0, 0, 0.03);
 	padding: 10px;
 	box-sizing: border-box;
 	margin-right: 20px;
 	height: auto !important;
-	border-radius: 0.5rem;
-	/*
-      width: auto !important;
-      height: auto;
-      margin: 0 !important;
-      background-color: rgba(0, 0, 0, 0.03);
-      justify-content: center;
-      border-radius: 5px;
-      // box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.08);
-      min-height: 120px !important;
-      padding: 20px 20px 20px 140px;
-      position: relative;
-      overflow: hidden;
-      */
 }
 
 .page-slug-attendees .tix-attendee-list li img.avatar {
 	width: 80px !important;
 	height: 80px !important;
 	border-radius: 50% !important;
-	/*
-        width: 120px !important;
-        height: 100% !important;
-        left: 0;
-        min-height: 100px;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        */
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-field {
 	font-size: 12px !important;
 	color: #3fba36;
 	margin-left: 100px !important;
-	/*
-        margin: 0;
-        padding-bottom: 2px;
-        padding-top: 2px;
-        word-wrap: anywhere;
-        margin-left: 0 !important;
-        font-size: 18px !important;
-        */
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-attendee-name {
 	color: #303030;
 	font-weight: 600;
 	font-size: 16px !important;
-	/*
-        display: block;
-        font-size: 17px;
-        font-weight: 500;
-        padding-bottom: 2px;
-        padding-top: 2px;
-        word-wrap: anywhere;
-        */
 }
 
 .page-slug-attendees .tix-attendee-list li .tix-field {
@@ -717,6 +676,20 @@ input, textarea, select {
 
 .page-slug-attendees .tix-attendee-list.tix-columns-4 li {
 	width: calc(25% - 20px) !important;
+}
+
+.page-slug-attendees .buy-ticket-header-btn a {
+	display: block;
+	padding: 6px 20px;
+	background-color: #3fba36;
+	color: #fff !important;
+	border-radius: 5px;
+}
+
+.page-slug-attendees .buy-ticket-header-btn a:hover {
+	background-color: #38a630 !important;
+	color: #fff !important;
+	border-color: #38a630 !important;
 }
 
 .sharedaddy {
