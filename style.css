@@ -818,15 +818,15 @@ input, textarea, select {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
-.contributor__day-table {
+.contributor__day-table.wcpt-schedule {
 	width: 100% !important;
 }
 
-.contributor__day-table thead {
+.contributor__day-table.wcpt-schedule thead {
 	background-color: #3EBA36;
 }
 
-.contributor__day-table tbody tr:nth-child(odd) {
+.contributor__day-table.wcpt-schedule tbody tr:nth-child(odd) {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
