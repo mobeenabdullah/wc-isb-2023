@@ -4,7 +4,7 @@
         background-color: rgba(0,0,0,0.05);
     }
     &-table {
-        width: 100%;
+        width: 100% !important;
         & thead {
             background-color: #3EBA36;
         }
@@ -14,5 +14,5 @@
             }
         }
     }
-    
+
 }

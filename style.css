@@ -819,7 +819,7 @@ input, textarea, select {
 }
 
 .contributor__day-table {
-	width: 100%;
+	width: 100% !important;
 }
 
 .contributor__day-table thead {
