@@ -122,6 +122,10 @@ body {
 	display: none;
 }
 
+.page-slug-schedule #wp--skip-link--target {
+	margin-top: 0;
+}
+
 @media screen and (max-width: 767px) {
 	.page-slug-wordcamp-islamabad-2023 .main__header {
 		position: relative;
