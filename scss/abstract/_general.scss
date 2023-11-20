@@ -136,6 +136,19 @@ body {
     margin: 0 !important;
   }
 }
+.page-slug-about, .page-slug-tickets, .page-slug-about, .page-slug-location
+.page-slug-news, .page-slug-students-discount, .page-slug-tickets
+.page-slug-sponsors, .page-slug-organizers, .page-slug-contact {
+  & .wp-block-post-title {
+    display: none;
+  }
+  #wp--skip-link--target {
+    margin-top: 0 !important;
+  }
+  .wp-block-post-content {
+    margin: 0 !important;
+  }
+}
 
 
 @media screen and (max-width: 767px) {
