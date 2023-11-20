@@ -839,4 +839,8 @@ input, textarea, select {
 	padding: 0.5rem 0.5rem;
 }
 
+.contributor__day-table tbody tr td:first-child {
+	width: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
