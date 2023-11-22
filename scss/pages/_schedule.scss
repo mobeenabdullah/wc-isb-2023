@@ -15,6 +15,13 @@
         & table {
             width: 100%;
             border-collapse: collapse;
+            & .wcpt-schedule {
+                & thead, & tbody, & tr, & td {                    
+                    @media screen and (max-width: 700px) {
+                        display: inherit !important;                        
+                    }                    
+                }
+            }
             & thead {
                 background-color: #3EBA36;
                 & tr {
