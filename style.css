@@ -849,7 +849,8 @@ input, textarea, select {
 
 @media screen and (max-width: 767px) {
 	.contributor__day-table table.wcpt-schedule thead tr th {
-		display: block !important;
+		display: revert-layer !important;
+		padding: 0.5rem !important;
 	}
 }
 
