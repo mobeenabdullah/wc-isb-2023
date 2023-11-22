@@ -832,7 +832,7 @@ input, textarea, select {
 }
 
 @media screen and (max-width: 767px) {
-	.page-slug-schedule .wp-block-jetpack-slideshow {
+	.contributor__day-wrapper .wp-block-jetpack-slideshow {
 		display: none !important;
 	}
 }
