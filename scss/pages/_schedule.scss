@@ -10,11 +10,15 @@
             & thead {
                 background-color: #3EBA36;
                 & tr {
+                    @media screen and (max-width: 700px) {
+                        display: inherit !important;                        
+                    }
                     & td {
                         padding: 0.5rem 0.5rem;
-                        @media screen and (max-width: 700px) {
-                            display: inherit !important;
+                        
+                        @media screen and (max-width: 700px) {                            
                             padding: 0.5rem 0.5rem !important;
+                            display: inherit !important;  
                         }
                     }
                 }
@@ -24,10 +28,16 @@
                     background-color: rgba(0,0,0,0.05);
                 }
                 & tr {
+                    @media screen and (max-width: 700px) {
+                        display: inherit !important;                        
+                    }
                     & td {
                         padding: 0.5rem;
                         font-size: 14px;
                         vertical-align: middle;
+                        @media screen and (max-width: 700px) {
+                            display: inherit !important;                        
+                        }
                         &:first-child {
                             width: 5rem;
                         }                   

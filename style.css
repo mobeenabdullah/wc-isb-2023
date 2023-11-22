@@ -845,14 +845,20 @@ input, textarea, select {
 	background-color: #3EBA36;
 }
 
+@media screen and (max-width: 700px) {
+	.contributor__day-table table thead tr {
+		display: inherit !important;
+	}
+}
+
 .contributor__day-table table thead tr td {
 	padding: 0.5rem 0.5rem;
 }
 
 @media screen and (max-width: 700px) {
 	.contributor__day-table table thead tr td {
-		display: inherit !important;
 		padding: 0.5rem 0.5rem !important;
+		display: inherit !important;
 	}
 }
 
@@ -860,10 +866,22 @@ input, textarea, select {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
+@media screen and (max-width: 700px) {
+	.contributor__day-table table tbody tr {
+		display: inherit !important;
+	}
+}
+
 .contributor__day-table table tbody tr td {
 	padding: 0.5rem;
 	font-size: 14px;
 	vertical-align: middle;
+}
+
+@media screen and (max-width: 700px) {
+	.contributor__day-table table tbody tr td {
+		display: inherit !important;
+	}
 }
 
 .contributor__day-table table tbody tr td:first-child {
