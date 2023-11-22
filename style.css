@@ -848,18 +848,18 @@ input, textarea, select {
 }
 
 @media screen and (max-width: 767px) {
-	.contributor__day-table table .wcpt-schedule thead tr th {
+	.contributor__day-table table.wcpt-schedule thead tr th {
 		display: block !important;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.contributor__day-table table .wcpt-schedule thead, .contributor__day-table table .wcpt-schedule tbody, .contributor__day-table table .wcpt-schedule tr, .contributor__day-table table .wcpt-schedule td {
+	.contributor__day-table table.wcpt-schedule thead, .contributor__day-table table.wcpt-schedule tbody, .contributor__day-table table.wcpt-schedule tr, .contributor__day-table table.wcpt-schedule td {
 		display: revert !important;
 	}
 }
 
-.contributor__day-table table .wcpt-schedule thead tr, .contributor__day-table table .wcpt-schedule tbody tr, .contributor__day-table table .wcpt-schedule tr tr, .contributor__day-table table .wcpt-schedule td tr {
+.contributor__day-table table.wcpt-schedule thead tr, .contributor__day-table table.wcpt-schedule tbody tr, .contributor__day-table table.wcpt-schedule tr tr, .contributor__day-table table.wcpt-schedule td tr {
 	border: none;
 }
 
