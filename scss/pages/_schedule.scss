@@ -1,3 +1,10 @@
+.page-slug-schedule {
+    & .wp-block-jetpack-slideshow {
+        @media screen and (max-width: 767px) {
+            display: none !important;
+        }
+    }
+}
 .contributor__day {
     &-content {
         padding: 1.5rem;

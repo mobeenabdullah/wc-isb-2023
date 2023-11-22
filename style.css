@@ -831,6 +831,12 @@ input, textarea, select {
 	box-shadow: 0 0 0 2px #3fba36;
 }
 
+@media screen and (max-width: 767px) {
+	.page-slug-schedule .wp-block-jetpack-slideshow {
+		display: none !important;
+	}
+}
+
 .contributor__day-content {
 	padding: 1.5rem;
 	background-color: rgba(0, 0, 0, 0.05);
