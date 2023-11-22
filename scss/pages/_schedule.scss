@@ -7,34 +7,33 @@
         & table {
             width: 100%;
             border-collapse: collapse;
-        }
-        & thead {
-            background-color: #3EBA36;
-            & tr {
-                & td {
-                    padding: 0.5rem 0.5rem;
-                    @media screen and (max-width: 767px) {
-                        display: inherit !important;
-                        padding: 0.5rem 0.5rem !important;
+            & thead {
+                background-color: #3EBA36;
+                & tr {
+                    & td {
+                        padding: 0.5rem 0.5rem;
+                        @media screen and (max-width: 700px) {
+                            display: inherit !important;
+                            padding: 0.5rem 0.5rem !important;
+                        }
                     }
                 }
             }
-        }
-        & tbody {
-            & tr:nth-child(even) {
-                background-color: rgba(0,0,0,0.05);
-            }
-            & tr {
-                & td {
-                    padding: 0.5rem;
-                    font-size: 14px;
-                    vertical-align: middle;
-                    &:first-child {
-                        width: 5rem;
-                    }                   
+            & tbody {
+                & tr:nth-child(even) {
+                    background-color: rgba(0,0,0,0.05);
+                }
+                & tr {
+                    & td {
+                        padding: 0.5rem;
+                        font-size: 14px;
+                        vertical-align: middle;
+                        &:first-child {
+                            width: 5rem;
+                        }                   
+                    }
                 }
             }
-        }
+        }        
     }
-
 }
