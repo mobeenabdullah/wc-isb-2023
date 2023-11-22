@@ -16,24 +16,36 @@
             width: 100%;
             border-collapse: collapse;
             & .wcpt-schedule {
+                & thead {
+                    & tr {
+                        & th {
+                            @media screen and (max-width: 767px) {
+                                display: block !important;
+                            }
+                        }
+                    }
+                }
                 & thead, & tbody, & tr, & td {                    
-                    @media screen and (max-width: 700px) {
-                        display: inherit !important;                        
+                    @media screen and (max-width: 767px) {
+                        display: revert !important;
                     }                    
+                    & tr {
+                        border: none;
+                    }
                 }
             }
             & thead {
                 background-color: #3EBA36;
                 & tr {
                     @media screen and (max-width: 700px) {
-                        display: inherit !important;                        
+                        display: revert !important;
                     }
                     & td {
                         padding: 0.5rem 0.5rem;
                         
                         @media screen and (max-width: 700px) {                            
                             padding: 0.5rem 0.5rem !important;
-                            display: inherit !important;  
+                            display: revert !important;
                         }
                     }
                 }
