@@ -13,6 +13,10 @@
             & tr {
                 & td {
                     padding: 0.5rem 0.5rem;
+                    @media screen and (max-width: 767px) {
+                        display: inherit !important;
+                        padding: 0.5rem 0.5rem !important;
+                    }
                 }
             }
         }
@@ -22,10 +26,12 @@
             }
             & tr {
                 & td {
-                    padding: 0.5rem 0.5rem;
+                    padding: 0.5rem;
+                    font-size: 14px;
+                    vertical-align: middle;
                     &:first-child {
                         width: 5rem;
-                    }
+                    }                   
                 }
             }
         }

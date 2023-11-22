@@ -849,12 +849,21 @@ input, textarea, select {
 	padding: 0.5rem 0.5rem;
 }
 
+@media screen and (max-width: 767px) {
+	.contributor__day-table thead tr td {
+		display: inherit !important;
+		padding: 0.5rem 0.5rem !important;
+	}
+}
+
 .contributor__day-table tbody tr:nth-child(even) {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
 .contributor__day-table tbody tr td {
-	padding: 0.5rem 0.5rem;
+	padding: 0.5rem;
+	font-size: 14px;
+	vertical-align: middle;
 }
 
 .contributor__day-table tbody tr td:first-child {
